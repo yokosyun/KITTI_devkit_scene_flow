@@ -14,4 +14,6 @@ g++ -O3 -DNDEBUG -o evaluate_scene_flow evaluate_scene_flow.cpp -lpng
 please read evaluate_scene_flow.cpp the directory is annoying
 ./evaluate_scene_flow {result_path}
 
+./evaluate_scene_flow KITTI/data_scene_flow/eval
+
 *make sure you have result_data and traing_data with correct path
